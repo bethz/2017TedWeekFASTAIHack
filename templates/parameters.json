@@ -1,0 +1,39 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "westeurope"
+        },
+        "virtualMachineName": {
+            "value": "template-tf"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_NV6"
+        },
+        "adminUsername": {
+            "value": "azadmin"
+        },
+        "virtualNetworkName": {
+            "value": "tf-vnet"
+        },
+        "networkInterfaceName": {
+            "value": "template-tf"
+        },
+        "networkSecurityGroupName": {
+            "value": "template-tf-nsg"
+        },
+        "adminPassword": {
+            "value": null
+        },
+        "subnetName": {
+            "value": "tensorflow"
+        },
+        "publicIpAddressName": {
+            "value": "template-tf-ip"
+        },
+        "publicIpAddressType": {
+            "value": "Dynamic"
+        }
+    }
+}
